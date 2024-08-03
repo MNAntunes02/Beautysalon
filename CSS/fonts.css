@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "DM Sans";
+    src: url('../fonts/DM_Sans/DMSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('../fonts/Poppins/Poppins-Black.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";/* Se a "DM Sans" não funcionar, use este (Roboto) */
+    src: url('../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf');
+}
+
+@font-face{
+    font-family: "Georgio";
+    src: url('../fonts/Noto_Sans_Georgian/NotoSansGeorgian-VariableFont_wdthwght.ttf');
+}
+
+a{
+    font-family: "DM Sans","Roboto",sans-serif;
+}
+
+#texto-inicio > h1{
+    font-family: "Poppins",sans-serif;
+}
+
+#texto-inicio > p{
+    font-family: "DM Sans","Roboto",sans-serif;
+}
+
+#btn-1{
+    font-family: "DM Sans","Roboto",sans-serif;
+}
+
+.separar > h1{
+    font-family: "Poppins",sans-serif;
+}
+
+.separar > p{
+    font-family: "DM Sans","Roboto",sans-serif;
+}
+
+#text-servicos > h1{
+    font-family: 'Poppins',sans-serif;
+}
+
+#text-servicos > p{
+    font-family: "DM Sans","Roboto",sans-serif;
+}
+
+.card-servicos > h1{
+    font-family: 'Poppins',sans-serif;
+}
+
+.card-servicos > p{
+    font-family: "DM Sans","Roboto",sans-serif;
+}
+
+section#depoimentos > h1{
+    font-family: 'Poppins',sans-serif;
+}
+
+.depoimentos p{
+    font-family: "DM Sans","Roboto",sans-serif;
+}
+
+#texto-contato > h1{
+    font-family: "Poppins",sans-serif;
+}
+
+#texto-contato > p{
+    font-family: "DM Sans","Roboto",sans-serif;
+}
+
+#btn-contato{
+    font-family: "DM Sans","Roboto",sans-serif;
+}
+
+#contatos{
+    font-family: "DM Sans","Roboto",sans-serif;
+}
+
+footer{
+    font-family: "DM Sans","Roboto",sans-serif;
+}
+
+@media screen and (max-width: 800px){
+    #menu a{
+        font-family: "Poppins",sans-serif;
+    }
+}
