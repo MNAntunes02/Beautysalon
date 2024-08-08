@@ -1,3 +1,24 @@
+// Função para rolar suavemente para uma seção
+function scrollToSection(elementId) {
+    const section = document.getElementById(elementId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+  
+  // Adicionando um event listener para cada link do menu
+  const links = document.querySelectorAll('nav a');
+  links.forEach(link => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();   
+   // Impede o comportamento padrão do link
+      const targetId = link.getAttribute('href').substring(1);   
+   // Obtém o ID da seção
+      scrollToSection(targetId);
+    });
+  });
+//-----------------------------------------------------------------------------------
+
 document.addEventListener("DOMContentLoaded",()=>{
     const abrirConfig = document.getElementById("abrirConfig");
     const body =  document.getElementById("body");
